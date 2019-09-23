@@ -1,0 +1,44 @@
+{
+  "name": "markdown-it-redirect",
+  "version": "0.1.1",
+  "description": "Replace / Redirect external links with Markdown-it Plugin",
+  "main": "dist/index.js",
+  "author": "Nasa8x",
+  "license": "MIT",
+  "dependencies": {
+    "markdown-it": "^10.0.0"
+  },
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack --progress --watch --colors",
+    "prod": "cross-env NODE_ENV=production webpack -p --progress --colors",
+    "test": "node ./test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nasa8x/printify-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nasa8x/printify-api/issues"
+  },
+  "homepage": "https://github.com/nasa8x/printify-api",
+  "keywords": [
+    "markdown replace link",
+    "markdown redirect link",
+    "redirect link",
+    "repalce link",
+    "repalce href",
+    "redirect link markdown",
+    "repalce link markdown"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "babel-loader": "^8.0.6",
+    "clean-webpack-plugin": "^0.1.19",
+    "cross-env": "^5.2.1",
+    "uglifyjs-webpack-plugin": "^1.3.0",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.8",
+    "webpack-node-externals": "^1.6.0"
+  }
+}

@@ -1,4 +1,26 @@
-[https://morioh.com/p/e446a15a1022](https://morioh.com/p/e446a15a1022)
-[https://learnstartup.com/p/e446a15a1022](https://learnstartup.com/p/e446a15a1022)
-<a href="https://morioh.com/p/e446a15a1022">https://morioh.com/p/e446a15a1022</a>
-<a href="https://learnstartup.net/p/e446a15a1022">https://learnstartup.net/p/e446a15a1022</a>
+<p>The&nbsp;<a href="https://docs.docker.com/compose/overview/" target="_blank">official
+        documentation</a>&nbsp;describes docker-compose as:</p>
+<blockquote><em>A tool for defining and running multi-container Docker applications. With Compose, you use a YAML file
+        to configure your application’s services. Then, with a single command, you create and start all the services
+        from your configuration. To learn more about all the features of Compose, see&nbsp;</em><a
+        href="https://docs.docker.com/compose/overview/#features" target="_blank"><em>the list of
+            features</em></a><em>.</em></blockquote>
+<p>Using docker-compose involves three easy steps:</p>
+<p>1.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;First, you need to define/describe your app environment with
+    a&nbsp;<code>Dockerfile</code>&nbsp;so you can reproduce it anywhere.</p>
+<p>2.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Second, you need to create&nbsp;<code>docker-compose.yml</code>&nbsp;file and define
+    the services required for running your application so you can run them in multi containers.</p>
+<p>3.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Finally you just need to run&nbsp;<code>docker-compose up</code>&nbsp;and Compose
+    will start all the services for your application</p>
+<h2><strong>Creating a Laravel 6 Project</strong></h2>
+<p>Let's create a <a href="https://morioh.com/p/6970c93d36af" target="_blank">Laravel 6</a> project and then see how we
+    can dockerize it using <a href="https://morioh.com/p/19448e6ce0cd" target="_blank"><strong>Docker</strong></a>.</p>
+<p>We have different ways to create Laravel projects: Using Composer (<a href="https://morioh.com/p/a06f4f365b59"
+        target="_blank">PHP</a> package manager), cloning from GitHub or downloading using cURL.</p>
+<h3>Using Composer</h3>
+<p>If you have Composer installed on your system then you can simply use the following command to create a Laravel
+    project:</p>
+<pre class="ql-syntax" spellcheck="false">composer create-project --prefer-dist laravel/laravel laravelproject
+</pre>
+<h3>Using GitHub Repository</h3>
+<p>Alternatively if you don't want to install Composer in your system, you can also clone Laravel from GitHub using:</p>

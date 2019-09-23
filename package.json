@@ -1,6 +1,6 @@
 {
   "name": "markdown-it-redirect",
-  "version": "0.1.1",
+  "version": "0.1.3",
   "description": "Replace / Redirect external links with Markdown-it Plugin",
   "main": "dist/index.js",
   "author": "Nasa8x",
@@ -15,12 +15,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nasa8x/printify-api.git"
+    "url": "git+https://github.com/nasa8x/markdown-it-redirect.git"
   },
   "bugs": {
-    "url": "https://github.com/nasa8x/printify-api/issues"
+    "url": "https://github.com/nasa8x/markdown-it-redirect/issues"
   },
-  "homepage": "https://github.com/nasa8x/printify-api",
+  "homepage": "https://morioh.com/topic/node-js",
   "keywords": [
     "markdown replace link",
     "markdown redirect link",

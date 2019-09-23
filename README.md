@@ -2,6 +2,7 @@
 
 # Replace / Redirect external links with Markdown-it Plugin
 
+Markdown-it Plugin repalce external links with redirect link.
 
 ### If you don't know Node.js 
 

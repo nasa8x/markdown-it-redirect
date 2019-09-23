@@ -35,7 +35,7 @@ var md = require('markdown-it')({ html: true}).use(redirect, {
 });
 
 var html = md.render('[https://morioh.com/p/e446a15a1022](https://morioh.com/p/e446a15a1022)\
-[https://learnstartup.com/p/e446a15a1022](https://learnstartup.com/p/e446a15a1022)\
+[https://learnstartup.net/p/e446a15a1022](https://learnstartup.net/p/e446a15a1022)\
 <a href="https://morioh.com/p/e446a15a1022">https://morioh.com/p/e446a15a1022</a>\
 <a href="https://learnstartup.net/p/e446a15a1022">https://learnstartup.net/p/e446a15a1022</a>');
 
@@ -43,7 +43,7 @@ var html = md.render('[https://morioh.com/p/e446a15a1022](https://morioh.com/p/e
 // result
 
 <p><a href="https://morioh.com/p/e446a15a1022">https://morioh.com/p/e446a15a1022</a>
-<a href="https://l.morioh.com/b0a3f595aa?r=https://learnstartup.com/p/e446a15a1022" rel="nofollow" target="_blank">https://learnstartup.com/p/e446a15a1022</a>
+<a href="https://l.morioh.com/b0a3f595aa?r=https://learnstartup.net/p/e446a15a1022" rel="nofollow" target="_blank">https://learnstartup.net/p/e446a15a1022</a>
 <a href="https://morioh.com/p/e446a15a1022">https://morioh.com/p/e446a15a1022</a>
 <a href=https://l.morioh.com/b0a3f595aa?r=https://learnstartup.net/p/e446a15a1022 rel="nofollow" target="_blank">https://learnstartup.net/p/e446a15a1022</a></p>
 

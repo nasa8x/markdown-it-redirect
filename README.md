@@ -41,6 +41,8 @@ var html = md.render('[https://morioh.com/p/e446a15a1022](https://morioh.com/p/e
 <a href="https://learnstartup.net/p/rJHeJJdk6l">https://learnstartup.net/p/rJHeJJdk6l</a>');
 
 ```
+
+```js
 // result
 
 <p><a href="https://morioh.com/p/e446a15a1022">https://morioh.com/p/e446a15a1022</a>

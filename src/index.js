@@ -14,7 +14,7 @@ module.exports = function (md, option) {
 
       if (blockToken.type === 'html_block') {
         blockToken.content = blockToken.content.replace(o.regex.html, function (match, arg1, arg2) {
-          return arg1 + o.redirect + encodeURI(arg2) + ' rel="nofollow" target="_blank"';
+          return arg1 +'"' + o.redirect + encodeURI(arg2) + '" rel="nofollow" target="_blank"';
         });
       }
       else if (blockToken.type === 'inline' && blockToken.children) {
@@ -31,7 +31,7 @@ module.exports = function (md, option) {
           else if (type === 'text' || type === 'html_inline') {
 
             token.content = token.content.replace(o.regex.html, function (match, arg1, arg2) {
-              return arg1 + o.redirect + encodeURI(arg2) + ' rel="nofollow" target="_blank"';
+              return arg1 +'"'+ o.redirect + encodeURI(arg2) + '" rel="nofollow" target="_blank"';
             });
           }
         });

@@ -12,7 +12,7 @@ module.exports = function (md, option) {
   md.core.ruler.after('inline', 'redirect', function (state) {
     state.tokens.forEach(function (blockToken) {    
 
-      if (blockToken.type === 'html_block') {
+      if (blockToken.type === 'text' || blockToken.type === 'html_block') {
         blockToken.content = blockToken.content.replace(o.regex.html, function (match, arg1, arg2) {
           return arg1 +'"' + o.redirect + encodeURI(arg2) + '" rel="nofollow" target="_blank"';
         });
